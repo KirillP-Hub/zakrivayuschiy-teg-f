@@ -7,3 +7,4 @@
 
 ## Link
 https://github.com/KirillP-Hub/zakrivayuschiy-teg-f.git
+https://kirillp-hub.github.io/zakrivayuschiy-teg-f/
