@@ -59,13 +59,12 @@
   flex-direction: column;
   justify-content: center;
   inline-size: clamp(375px, 50vw, 700px);
-
   border: 2px solid var(--border-color);
   background-color: var(--bg-color);
 }
 
 .card__title {
-  padding: 4px 10px 6px;
+  padding: 4px 10px;
   font-family: var(--main-font);
   font-size: var(--font-size-large);
   font-variation-settings: "wght" var(--title-weight);
@@ -75,14 +74,15 @@
   position: relative;
   border-top: 2px solid var(--border-color);
   border-bottom: 2px solid var(--border-color);
-  block-size: clamp(375px, 50vw, 696px);
+  block-size: clamp(375px, 50vw, 699px);
 }
 
-.card__image  {
+.card__image {
   display: block;
   inline-size: 100%;
   object-fit: cover;
   object-position: center;
+  aspect-ratio: 1;
 }
 
 .filter__saturate {
