@@ -15,8 +15,8 @@
   </head>
   <body class="page">
     <header class="header">
-      <h1 class="header__title">&lt;/HTML&gt;</h1>
-      <p class="header__text">закрывающий тег</p>
+      <span class="header__title">&lt;/HTML&gt;</span>
+      <h1 class="header__text">закрывающий тег</h1>
     </header>
     <main>
       <section class="card__section">
@@ -532,19 +532,20 @@
           </svg>
           <span class="floppy__button-text">Сохранить на память</span>
         </button>
-        <dialog class="dialog__button" id="dialog-id">
+        <dialog class="dialog__container" id="dialog-id">
           <div class="dialog__pop-up">
             <svg
               aria-hidden="true"
               class="dialog__floppy"
               xmlns="http://www.w3.org/2000/svg"
+              viewbox="0 0 39 39"
             >
               <use href="./svg/floppy.svg#floppy"></use>
             </svg>
             <p class="dialog__text">Вставьте дискету, чтобы продолжить</p>
           </div>
           <button
-            class="button"
+            class="button dialog__button"
             type="button"
             onclick="window['dialog-id'].close()"
           >
